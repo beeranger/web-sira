@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ramahana/repositories/web-sira/
+    - export DEPLOYPATH=/home/ramahana/
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp -R ./public/* $DEPLOYPATH/public_html/
