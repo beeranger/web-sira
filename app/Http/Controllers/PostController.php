@@ -7,6 +7,7 @@ use App\Models\User;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Photo;
 use App\Models\Unit;
 
 class PostController extends Controller
@@ -104,18 +105,32 @@ class PostController extends Controller
     }
 
     public function unitSekolah(Unit $unit) {
-        return view('unit',[
-            'posts' => $unit->posts->load('unit','category'),
-            'unit'=>$unit,
-        ]);
+        $data=['photos'=>Photo::where('unit_id',$unit->id)->paginate(4)];
+        if($unit->slug =='smpi'){
+            // return $data;
+            return view('smpi')->with($data);
+            // return view('smpi',[
+            //     'posts' => $unit->posts->load('unit','category'),
+            //     'photos'=>$unit->photos->load('unit'),
+            //     'unit'=>$unit,
+            // ]);
+        }elseif($unit->slug =='sdi'){
+            return view('sdi')->with($data);
+            // return view('unit',[
+            //     'posts' => $unit->posts->load('unit','category'),
+            //     'photos'=> $unit->photos->load('unit'),
+            //     'unit'=>$unit]);
+        }
+
     }
 
     public function home(){
+        
         $data =[
             'posts' =>Post::latest()->get(),
+            'photos'=>Photo::latest()->get(),
         ];
-        return view('home')->with($data);
-        // return $data;
+        return view('new_home')->with($data);
     }
 
     public function about(){

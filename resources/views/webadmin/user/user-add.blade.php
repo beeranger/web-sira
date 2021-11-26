@@ -65,8 +65,8 @@
                             </div>        
                             
                             <div class="form-group mb-2">
-                                <?php  $roles = array("0"=>"user","1"=>"admin"); ?>
                                 <label for="" >Role :</label>
+                                <?php  $roles = array("0"=>"user","1"=>"admin"); ?>
                                 <select name="is_admin" class="form-control">
                                     {{-- <option selected value> {{ $post->unit->name }} </option> --}}
                                     @foreach ($roles as $role =>$name)

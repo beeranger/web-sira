@@ -21,7 +21,7 @@
             <!-- Navigation-->
             @include('layouts.navbar')
             <!-- Header-->            
-            <header class="py-5" style="background-color: var(--bs-orange)">
+            <header class="py-5 bg-light" style="background-color: var(--bs-yellow)">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -29,11 +29,11 @@
                                 <h1 class="display-5 fw-bolder text-dark mb-2">Selamat datang di Sekolah Islam Ramah Anak</h1>
                                 <p class="lead fw-normal text-white-75 mb-4">Karena setiap anak berhak mendapatkan pendidikan yang terbaik!</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Selengkapnya..</a>
+                                    <a class="btn btn-warning btn-lg px-4" href="#!">Selengkapnya..</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://source.unsplash.com/1280x720/?classroom,school" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{ asset('assets/images/home.png') }}" alt="..." width="600px"/></div>
                     </div>
                 </div>
             </header>

@@ -17,10 +17,10 @@ class CreateUnitsTable extends Migration
             $table->id();
             $table->string('name')->unique();
             $table->string('slug')->unique();
-            $table->text('visi');
-            $table->text('misi');
-            $table->text('program');
-            $table->text('target');
+            // $table->text('visi');
+            // $table->text('misi');
+            // $table->text('program');
+            // $table->text('target');
             $table->timestamps();
         });
     }

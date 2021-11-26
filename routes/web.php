@@ -14,6 +14,7 @@ use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
+use App\Models\Photo;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,19 +26,19 @@ use App\Http\Controllers\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', [PostController::class,'home']);
-Route::get('/about',[PostController::class,'about']);
-Route::get('/photos',[PhotoController::class,'index']);
-Route::get('/posts', [PostController::class,'index']);
-Route::get('/posts/{post:slug}',[PostController::class,'show']);
-Route::get('/units/{unit:slug}',[PostController::class,'unitSekolah']);
+Route::get('/', [PostController::class,'home'])->name('home');
+// Route::get('/about',[PostController::class,'about'])->name('about');
+// Route::get('/photos',[PhotoController::class,'index'])->name('galeri');
+Route::get('/posts', [PostController::class,'index'])->name('berita');
+Route::get('/posts/{post:slug}',[PostController::class,'show'])->name('berita-lihat');
+Route::get('/units/{unit:slug}',[PostController::class,'unitSekolah'])->name('unit');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 Route::get('/penerimaan', function () {
     return view('pendaftaran');
-});
+})->name('ppdb');
 
 
 // Route::get('/register', function () {

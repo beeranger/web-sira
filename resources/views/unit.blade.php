@@ -1,15 +1,20 @@
-@extends('layouts.main')
+@extends('layouts.new_main')
 
 @section('content')
     <!-- Visi Misi-->
     <header class="py-5">
         <div class="container px-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-12">
+            <div class="row justify-content">
+                @if ($unit->slug =='sdi')
+                <div class="col-lg-4"><img class="img-fluid rounded-3 my-5" src="{{ asset('assets/images/sdi.png') }}" alt="..." width="200px"/></div>
+                @elseif ($unit->slug=='smpi')
+                <div class="col-lg-4"><img class="img-fluid rounded-3 my-5" src="{{ asset('assets/images/smpi.png') }}" alt="..." width="200px"/></div>
+                @endif
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
                     <div class="text-center my-5">
                         <h2 class="fw-bolder mb-3">Visi kami menjadi {{ $unit->visi }}</h2>
                         <div class="lead fw-normal fs-6 text-muted mb-4">{!! $unit->misi !!}</div>
-                        <a class="btn btn-primary btn-lg" href="#">Read our story</a>
+                        {{-- <a class="btn btn-primary btn-lg" href="#">Read our story</a> --}}
                     </div>
                 </div>
             </div>
@@ -19,7 +24,7 @@
     <section class="py-5 bg-light" id="scroll-target">
         <div class="container px-5 my-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://source.unsplash.com/600x400/?graduation" alt="..." /></div>
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://source.unsplash.com/600x400/?graduation" alt="..."  /></div>
                 <div class="col-lg-6">
                     <h2 class="fw-bolder">Target Lulusan</h2>
                     <p class="lead fw-normal text-muted mb-0">{!! $unit->target !!}</p>
@@ -39,7 +44,27 @@
             </div>
         </div>
     </section>
-    
+     <!-- About section three-->
+     <section class="py-5 bg-light" >
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                @if ($unit->slug =='sdi')
+                <div class="col-lg-4"><img class="img-fluid rounded-circle mb-5 mb-lg-0" src="{{ asset('assets/images/sdi/kepala-sekolah.png') }}" alt="..."  />
+                    <figcaption class="figure-caption"> Kepala sekolah SDI Ramah Anak</figcaption>
+                </div>                    
+                @elseif ($unit->slug=='smpi')
+                <div class="col-lg-4"><img class="img-fluid rounded-circle mb-5 mb-lg-0 " src="{{ asset('assets/images/smpi/kepala-sekolah.png') }}" alt="..."  />
+                    <figcaption class="figure-caption text-align-center"> Kepala sekolah SMPI Ramah Anak</figcaption>
+                </div>                
+                @endif
+                <div class="col-lg-8">
+                    <h2 class="fw-bolder">Pengantar dari Kepala Sekolah</h2>
+                    <p class="lead fw-normal text-muted mb-0">{!! $unit->target !!}</p>
+                    <a class="btn btn-primary btn-sm" href="/posts/pengantar-kepala-{{ $unit->slug }}">Selengkapnya.. </a>
+                </div>
+            </div>
+        </div>
+    </section>
       
 
     <!-- News preview section-->

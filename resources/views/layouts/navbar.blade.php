@@ -1,5 +1,5 @@
 <header class="topbar">
-    <nav class="navbar top-navbar navbar-expand-lg navbar-light" style="background-color: var(--bs-gray-200)">
+    <nav class="navbar top-navbar navbar-expand-lg navbar-light bg-light" style="background-color: var(--bs-blue)">
         <div class="container px-5">
             <a class="navbar-brand" href="/"><img src="{{ asset('assets/logo-utama.png') }}" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

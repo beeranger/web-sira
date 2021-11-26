@@ -17,7 +17,7 @@ class CreatePhotosTable extends Migration
             $table->increments('id');
             $table->foreignId('category_id');
             $table->foreignId('unit_id');
-            $table->string('caption');
+            $table->string('caption')->nullable();
             $table->string('url');
             $table->timestamp('published_at')->nullable();            
             $table->timestamps();
