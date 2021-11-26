@@ -65,7 +65,7 @@ class GaleriController extends Controller
         //     'caption'=> 'string|nullable',
         //     'imgupload'=>'required|image|max:5000'
         // ]);
-        $path = Storage::putFileAs('public/galeri', $request->file('imgupload'),$imgname);
+        $path = Storage::putFileAs('galeri/', $request->file('imgupload'),$imgname);
         
         Photo::firstOrCreate([
             'category_id'=> $request->category_id,
