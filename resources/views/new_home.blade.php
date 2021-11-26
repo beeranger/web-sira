@@ -195,7 +195,7 @@
 		</section>
 
 		
-		<section class="ftco-section ftco-no-pb">
+	{{-- <section class="ftco-section ftco-no-pb">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -304,7 +304,7 @@
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="18">0</strong>
+		                <strong class="number" data-number="30">0</strong>
 		                <span>Guru Profesional</span>
 		              </div>
 		            </div>
@@ -313,7 +313,7 @@
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="351">0</strong>
+		                <strong class="number" data-number="320">0</strong>
 		                <span>Pelajar Berprestasi</span>
 		              </div>
 		            </div>
@@ -322,7 +322,7 @@
 		            <div class="block-18">
 		            	<div class="icon"><span class="flaticon-doctor"></span></div>
 		              <div class="text">
-		                <strong class="number" data-number="564">0</strong>
+		                <strong class="number" data-number="640">0</strong>
 		                <span>Orangtua Senang</span>
 		              </div>
 		            </div>
@@ -331,7 +331,7 @@
           </div>
         </div>
     	</div>
-    </section>
+    </section> --}}
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -341,7 +341,7 @@
             <p>Pendapat orang tua murid mengirimkan anaknya bersekolah di Ramah Anak.</p>
           </div>
         </div>
-        <div class="row ftco-animate justify-content-center">
+        {{-- <div class="row ftco-animate justify-content-center">
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel">
               <div class="item">
@@ -416,7 +416,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
       </div>
     </section>
 
@@ -512,9 +512,10 @@
 	<section class="ftco-gallery">
     	<div class="container-wrap">
     		<div class="row no-gutters">
+				{{-- @php $path = Storage::disk('public')->url('galeri/'.$form->photo_url); @endphp --}}
 				@foreach ($photos->take(4) as $photo )
 					<div class="col-md-3 ftco-animate">
-						<a href="{{ asset($photo->url) }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ $photo->url }}) ;">
+						<a href="{{ asset('/galeri/'.$photo->url) }}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({{ '/galeri/'.$photo->url }}) ;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
 								<span class="icon-image"></span>
 							</div>
