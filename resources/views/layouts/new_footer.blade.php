@@ -15,26 +15,26 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2">Berita terbaru</h2>
+            <h2 class="ftco-heading-2">Informasi Penerimaan Siswa Baru</h2>
             <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+              <a class="blog-img mr-4" style="background-image: url(/front/images/image_1.jpg);"></a>
               <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/timeline">Pendaftaran PPDB Gelombang 1</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> sampai Nov 30, 2021</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  {{-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> --}}
                 </div>
               </div>
             </div>
             <div class="block-21 mb-5 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+              <a class="blog-img mr-4" style="background-image: url(/front/images/image_2.jpg);"></a>
               <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/alur-pendaftaran">Alur Pendaftaran Online & Offline</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> sampai Nov 30, 2021</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  {{-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> --}}
                 </div>
               </div>
             </div>
