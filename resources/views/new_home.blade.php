@@ -7,6 +7,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon-ra.png') }}">
 
     <link rel="stylesheet" href="{{ asset('front/css/open-iconic-bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('front/css/animate.css') }}">

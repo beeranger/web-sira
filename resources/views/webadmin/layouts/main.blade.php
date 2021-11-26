@@ -12,7 +12,7 @@
     <title>Webadmin Ramah Anak</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon-ra.png') }}">
     <!-- Custom CSS -->
     <!-- datatables -->
     <link href="{{ asset('assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css"') }} rel="stylesheet">
