@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ramahana/public_html/
+    # - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R ./public/* $DEPLOYPATH
