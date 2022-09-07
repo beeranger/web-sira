@@ -337,7 +337,7 @@
     	</div>
     </section> --}}
 
-    <section class="ftco-section testimony-section bg-light">
+    {{-- <section class="ftco-section testimony-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -345,7 +345,7 @@
             <p>Pendapat orang tua murid mengirimkan anaknya bersekolah di Ramah Anak.</p>
           </div>
         </div>
-        {{-- <div class="row ftco-animate justify-content-center">
+        <div class="row ftco-animate justify-content-center">
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel">
               <div class="item">
@@ -420,9 +420,9 @@
               </div>
             </div>
           </div>
-        </div> --}}
+        </div>
       </div>
-    </section>
+    </section> --}}
 
     {{-- <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">

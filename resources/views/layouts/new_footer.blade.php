@@ -21,7 +21,7 @@
               <div class="text">
                 <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/timeline">Pendaftaran PPDB Gelombang 1</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> sampai Nov 30, 2021</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> sampai Oktober 31, 2022</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                   {{-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> --}}
                 </div>
@@ -32,7 +32,7 @@
               <div class="text">
                 <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/alur-pendaftaran">Alur Pendaftaran Online & Offline</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> sampai Nov 30, 2021</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> sampai Oktober 31, 2022</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                   {{-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> --}}
                 </div>
