@@ -42,9 +42,9 @@
                                 <!-- start row -->
                                 <tr>
                                     <th>No.</th>
+                                    <th>Name</th>
                                     <th>Username</th>
                                     <th>Role</th>
-                                    <th> </th>
                                     <th> </th>
                                 </tr> <!-- end row -->
                             </thead>
