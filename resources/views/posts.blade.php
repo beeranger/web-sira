@@ -65,9 +65,8 @@
                                 <div class="text bg-white p-4">
                                   <h3 class="heading"><a href="{{ route('berita-lihat',$post->slug) }}">{{ $post->title }}</a></h3>
                                   <p>{{ $post->excerpt }}</p>
-                                  <p>{{$path }}</p>
                                   <div class="d-flex align-items-center mt-4">
-                                      <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                                      <p class="mb-0"><a href="{{ route('berita-lihat',$post->slug) }}" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                                       <p class="ml-auto mb-0">
                                           <a href="#" class="mr-2">{{ $post->user->name }}</a>
                                           <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
