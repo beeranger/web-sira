@@ -42,8 +42,8 @@
                         </header>
                         <!-- Preview image figure-->
                         @if (!empty($post->figure_url))
-                            @php $path = Storage::disk('public')->url('head/'); @endphp 
-                            <figure class="mb-4"><img class="img-fluid rounded" src="{{ asset('head/sd_1.jpg') }}" alt="..." /></figure> 
+                            @php $path = Storage::disk('public')->url('galeri/'.$post->figure_url); @endphp
+                            <figure class="mb-4"><img class="img-fluid rounded" src="{{ asset($path) }}" alt="..." /></figure> 
                             {!! $path !!}                           
                         @endif
                         {{-- <figure class="mb-4"><img class="img-fluid rounded" src="https://dummyimage.com/900x400/ced4da/6c757d.jpg" alt="..." /></figure>  --}}
