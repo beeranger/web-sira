@@ -30,8 +30,6 @@ class HomeController extends Controller
             // return redirect()->to('admin');      
             $data=[ 'posts'=>Post::latest()->get(),];
             return view('webadmin.home')->with($data);
-        }else{
-            return redirect()->to('logout');
         }
     }
 }

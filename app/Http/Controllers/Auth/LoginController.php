@@ -29,7 +29,18 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    // protected $redirectTo = RouteServiceProvider::HOME;
+    public function redirectTo() {
+        $user = Auth::user();
+        if ($user->is_admin==1) {
+            return route('webadmin.home');
+        }else{
+            return redirect()->route('login');
+        }
+    }
+    protected function loggedOut(Request $request) {
+        return redirect()->route('login');
+    }
 
     /**
      * Create a new controller instance.
@@ -74,11 +85,12 @@ class LoginController extends Controller
             $user = Auth::user();
             if ($user->is_admin ==1) {
                 return redirect()->route('webadmin.home');            
+            }else{
+                return redirect()->route('login');
             }
-            return redirect('login');
         }
         $request->session()->flash('error', 'Cek kembali username dan password anda');
         // return redirect('login')->withSuccess('Cek kembali username dan password anda');
-        return redirect('login');
+        return redirect()->route('login');
     }
 }

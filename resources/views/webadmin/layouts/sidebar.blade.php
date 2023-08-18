@@ -30,8 +30,8 @@
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{ route('webadmin.posts') }}" aria-expanded="false"><i class="mdi mdi-newspaper"></i><span class="hide-menu">List Berita</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{ route('webadmin.galeri-list') }}" aria-expanded="false"><i class="mdi mdi-image-multiple"></i><span class="hide-menu">Galeri</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{ route('webadmin.unit-sekolah') }}" aria-expanded="false"><i class="mdi mdi-school"></i><span class="hide-menu">Unit Sekolah</span></a></li>
-                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-account-box"></i><span class="hide-menu">Contact</span></a></li>
-                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-calendar"></i><span class="hide-menu">PPDB</span></a></li>
+                {{-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-account-box"></i><span class="hide-menu">Contact</span></a></li>
+                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-calendar"></i><span class="hide-menu">PPDB</span></a></li> --}}
                                
                 
             </ul>

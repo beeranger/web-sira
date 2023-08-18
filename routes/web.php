@@ -49,10 +49,11 @@ Route::get('/penerimaan', function () {
 Route::prefix('webadmin-ra')->group(function () {       
     Auth::routes();
     Route::get('/login',[LoginController::class,'index'])->name('login');
-    Route::post('/authenticate',[LoginController::class,'authenticate'])->name('authenticate');
+    
+    // Route::post('/authenticate',[LoginController::class,'authenticate'])->name('authenticate');
     // Route::get('/logout',[LoginController::class,'logout'])->name('logout');    
     Route::group(['middleware'=>['auth','admin']],function(){
-        Route::get('home', [HomeController::class,'index'])->name('webadmin.home');
+        Route::get('/home', [HomeController::class,'index'])->name('webadmin.home');
     
         Route::get('/users',[UserController::class,'index'])->name('webadmin.users-list');
         Route::get('/users/createuser',[UserController::class,'create'])->name('webadmin.users-create');
