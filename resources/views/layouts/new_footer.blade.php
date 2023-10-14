@@ -8,7 +8,7 @@
                 <ul>
                   <li><span class="icon icon-map-marker"></span><span class="text">Jl.Paraji No.63 004/005 Kalibaru-Cilodog, Depok JawaBarat</span></li>
                   <li><a href="#"><span class="icon icon-phone"></span><span class="text">+6221 771 8681</span></a></li>
-                  <li><a href="#"><span class="icon icon-whatsapp"></span><span class="text">0822 4651 8383</span></a></li>
+                  <li><a href="#"><span class="icon icon-whatsapp"></span><span class="text">+62 852 1058 5143</span></a></li>
                 </ul>
               </div>
           </div>
@@ -17,7 +17,7 @@
           <div class="ftco-footer-widget mb-5">
             <h2 class="ftco-heading-2">Informasi Penerimaan Siswa Baru</h2>
             <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(/front/images/image_1.jpg);"></a>
+              <a class="blog-img mr-4" style="background-image: url(/front/images/ppdb.jpg);"></a>
               <div class="text">
                 <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/timeline">Pendaftaran PPDB Gelombang 1</a></h3>
                 <div class="meta">
@@ -28,7 +28,7 @@
               </div>
             </div>
             <div class="block-21 mb-5 d-flex">
-              <a class="blog-img mr-4" style="background-image: url(/front/images/image_2.jpg);"></a>
+              <a class="blog-img mr-4" style="background-image: url(/front/images/ppdb.jpg);"></a>
               <div class="text">
                 <h3 class="heading"><a href="https://ppdb.ramahanak.sch.id/alur-pendaftaran">Alur Pendaftaran Online & Offline</a></h3>
                 <div class="meta">
@@ -62,15 +62,15 @@
             </form>
           </div>
           <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2 mb-0">Sosial Media</h2>
+            <h2 class="ftco-heading-4 mb-0">Sosial Media</h2>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>       
-            </ul>
+                <li class="ftco-animate"><a href="https://youtube.com/@smpislamramahanak7438?si=vlwaOWnmYGJFai_x"><span class="icon-youtube"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/smpiradepok18"><span class="icon-facebook"></span></a></li>       
+                <li class="ftco-animate"><a href="https://youtube.com/@sdiramahanakdepok2104?si=cvV7IYVlo7qFdA8S"><span class="icon-youtube"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/sdiramahanak"><span class="icon-facebook"></span></a></li>  
+            </ul>     
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>  
-            </ul>
+            </ul>       
           </div>
         </div>
       </div>

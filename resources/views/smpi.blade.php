@@ -1,8 +1,7 @@
 @extends('layouts.new_main')
 
 @section('content')
-    <!-- header -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url(front/images/bg_2.jpg);">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url(/front/images/smp_front.jpg);">
 		<div class="overlay"></div>
         <div class="container">
 			<div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -13,6 +12,7 @@
 			</div>
         </div>
     </section>
+
     <!-- visi misi -->
     <section class="ftco-section ftco-no-pt ftc-no-pb">
 		<div class="container">
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_1.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#"> Pekan Bahasa</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -118,7 +118,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_1.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_3.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Ibadah Harian</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_1.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Proyek Sains dan teknologi</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -134,7 +134,7 @@
 					</div>
 				</div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_1.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Produksi Film Pendek</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -142,7 +142,7 @@
 					</div>
 				</div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_2.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Quran Camp</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -150,7 +150,7 @@
 					</div>
 				</div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_2.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_4.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Edutrip, Outing class</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}
@@ -166,7 +166,7 @@
 					</div>
 				</div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
-					<div class="img" style="background-image: url(/front/images/prosmp_2.jpg);"></div>
+					<div class="img" style="background-image: url(/front/images/prosmp_5.jpg);"></div>
 					<div class="text bg-light p-4">
 						<h3><a href="#">Ekstrakurikuler</a></h3>
 						{{-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> --}}

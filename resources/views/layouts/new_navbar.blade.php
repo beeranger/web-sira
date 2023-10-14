@@ -9,11 +9,11 @@
                     </div>
                     <div class="col-md pr-4 d-flex topper align-items-center">
                         <div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span class="icon-whatsapp"></span></div>
-                        <span class="text">0822 4615 8383</span>
+                        <span class="text">+62 852 1058 5143</span>
                     </div>
                     <div class="col-md pr-4 d-flex topper align-items-center">
                         <div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-                        <span class="text">021 771 8681</span>
+                        <span class="text">+6221 771 8681</span>
                     </div>
                 </div>
             </div>

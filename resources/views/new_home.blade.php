@@ -32,7 +32,7 @@
 	@include('layouts.new_navbar')
     
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(front/images/home_1.jpg);">
+      <div class="slider-item" style="background-image:url(front/images/depan_1.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -43,8 +43,7 @@
         </div>
         </div>
       </div>
-
-      <div class="slider-item" style="background-image:url(front/images/home_2.jpg);">
+      <div class="slider-item" style="background-image:url(front/images/depan_2.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -55,6 +54,19 @@
         </div>
         </div>
       </div>
+      <div class="slider-item" style="background-image:url(front/images/depan_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 text-center ftco-animate">
+            <h1 class="mb-4">Merdeka Belajar <span> di Ramah Anak </span></h1>
+            <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Selengkapnya...</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+	  
+	  
     </section>
 
     <section class="ftco-services ftco-no-pb">
@@ -488,7 +500,11 @@
 				@foreach ($posts->take(6) as $post )
                         <div class="col-md-6 col-lg-4 ftco-animate">
                             <div class="blog-entry">
-                                <a href="{{ route('berita-lihat',$post->slug) }}" class="block-20 d-flex align-items-end" style="background-image: url('front/images/image_5.jpg');">
+								@php $path = asset('front/images/image_5.jpg'); @endphp
+								@if (!empty($post->figure_url))
+									@php $path = Storage::disk('public')->url('galeri/'.$post->figure_url); @endphp
+								@endif  
+                                <a href="{{ route('berita-lihat',$post->slug) }}" class="block-20 d-flex align-items-end" style="background-image: url('{{ asset($path) }}');">
                                     <div class="meta-date text-center p-2">
                                         <span class="day">{{ $post->created_at->format('d M') }}</span>
                                         <span class="mos">{{ $post->created_at->format('Y') }}</span>
